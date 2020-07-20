@@ -2,17 +2,19 @@ a code book that describes the variables, the data, and any transformations or w
 
 ## Variables 
 
-		- 'Features': The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
-		- 'Activities': List of activities performed when the corresponding measurements were taken and its codes (labels)
+- <Features>: The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
+- 'Activities': List of activities performed when the corresponding measurements were taken and its codes (labels)
 
-		- 'subjectTest': contains test data of 9/30 volunteer test subjects being observed
-		- 'subjectTrain': contains train data of 21/30 volunteer subjects being observed
+- 'subjectTest': contains test data of 9/30 volunteer test subjects being observed
+- 'subjectTrain': contains train data of 21/30 volunteer subjects being observed
 
-		- 'x_test': contains recorded features test data
-		- 'y_test': contains test data of activities code labels
+- 'x_test': contains recorded features test data
+- 'y_test': contains test data of activities code labels
 
-		- 'x_train': contains recorded features train data
-		- 'y_train': contains train data of activities code labels
+- 'x_train': contains recorded features train data
+- 'y_train': contains train data of activities code labels
+		
+## Data
 
 ## Transformation
 
@@ -48,15 +50,3 @@ code column in *Data.* renamed into activities
 Export *FinalData.* into FinalData.txt file.
 
 
-The "run_analysis.R." script performs the data preparation and then followed by the 5 steps required as described in the course project’s definition.
-
-1. Download the dataset
-Dataset downloaded and extracted under the folder called UCI HAR Dataset
-
-Assign each data to variables
-
-
-
-
-Uses descriptive activity names to name the activities in the data set
-Entire numbers in code column of the TidyData replaced with corresponding activity taken from second column of the activities variable
