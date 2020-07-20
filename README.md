@@ -8,9 +8,9 @@ Description of the data can be found here: http://archive.ics.uci.edu/ml/dataset
 
 # Files
 
-CodeBook.md. describes the variables, the data, and any transformations or work that are performed to clean up the data.
+*CodeBook.md.* describes the variables, the data, and any transformations or work that are performed to clean up the data.
 
-runAnalysis.R contains all the coding for doing the course project in 5 steps:
+*RunAnalysis.R.* contains all the coding for doing the course project in 5 steps:
 
     * 0. Downloading and Unzipping the data set.
     * 1. Merges the training and the test sets to create one data set.
@@ -19,8 +19,8 @@ runAnalysis.R contains all the coding for doing the course project in 5 steps:
     * 4. Appropriately labels the data set with descriptive variable names.
     * 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-finalData.txt is the resulted final data after going through all the steps described above, resulting in the average features of each subject and each activity. 
+*FinalData.txt.* is the resulted final data after going through all the steps described above, resulting in the average features of each subject and each activity. 
 
 Reference:
 =========
-[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
