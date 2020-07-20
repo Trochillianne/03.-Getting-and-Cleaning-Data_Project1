@@ -1,5 +1,5 @@
 # Human Activity Recognition Using Smartphones Dataset
-The "Getting and Cleaning Data course project" is aimed to collect, work with, and clean a database in order to prepare a tidy dataset that can be used for later analysis.
+The "Getting and Cleaning Data" course project is aimed to collect, work with, and clean a database in order to prepare a tidy dataset that can be used for later analysis.
 
 # Dataset
 
