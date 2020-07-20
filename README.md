@@ -3,13 +3,15 @@ The "Getting and Cleaning Data course project" is aimed to collect, work with, a
 
 # Dataset
 
-The data for this project can be downloaded through the following link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and description of the data can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+The data for this project can be downloaded through the following link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+Description of the data can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 # Files
 
 CodeBook.md. describes the variables, the data, and any transformations or work that are performed to clean up the data.
 
 runAnalysis.R contains all the coding for doing the course project in 5 steps:
+
     * 0. Downloading and Unzipping the data set.
     * 1. Merges the training and the test sets to create one data set.
     * 2. Extracts only the measurements on the mean and standard deviation for each measurement.
