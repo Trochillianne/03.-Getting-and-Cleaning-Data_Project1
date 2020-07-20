@@ -10,7 +10,6 @@ The data for this project can be downloaded through the following link: https://
 CodeBook.md. describes the variables, the data, and any transformations or work that are performed to clean up the data.
 
 runAnalysis.R contains all the coding for doing the course project in 5 steps:
-
     * 0. Downloading and Unzipping the data set.
     * 1. Merges the training and the test sets to create one data set.
     * 2. Extracts only the measurements on the mean and standard deviation for each measurement.
